@@ -4,7 +4,16 @@
   <url>
     <loc>http://morethanjw.github.io/2022/09/24/hello/</loc>
     
-    <lastmod>2022-10-04</lastmod>
+    <lastmod>2022-10-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://morethanjw.github.io/2022/10/07/leetcode1481/</loc>
+    
+    <lastmod>2022-10-07</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -21,6 +30,13 @@
   
   <url>
     <loc>http://morethanjw.github.io/tags/About-Me/</loc>
+    <lastmod>2022-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://morethanjw.github.io/tags/C/</loc>
     <lastmod>2022-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
