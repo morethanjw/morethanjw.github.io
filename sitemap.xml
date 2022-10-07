@@ -2,15 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://morethanjw.github.io/2022/10/04/resume/</loc>
-    
-    <lastmod>2022-10-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://morethanjw.github.io/2022/09/24/hello-world/</loc>
     
     <lastmod>2022-10-04</lastmod>
@@ -22,7 +13,7 @@
 
   <url>
     <loc>http://morethanjw.github.io/</loc>
-    <lastmod>2022-10-04</lastmod>
+    <lastmod>2022-10-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -30,7 +21,7 @@
   
   <url>
     <loc>http://morethanjw.github.io/tags/About-Me/</loc>
-    <lastmod>2022-10-04</lastmod>
+    <lastmod>2022-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
