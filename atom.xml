@@ -6,7 +6,7 @@
   <link href="http://morethanjw.github.io/atom.xml" rel="self"/>
   
   <link href="http://morethanjw.github.io/"/>
-  <updated>2022-10-07T20:50:03.807Z</updated>
+  <updated>2022-10-07T20:51:06.615Z</updated>
   <id>http://morethanjw.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://morethanjw.github.io/2022/10/07/leetcode1481/"/>
     <id>http://morethanjw.github.io/2022/10/07/leetcode1481/</id>
     <published>2022-10-07T20:30:56.000Z</published>
-    <updated>2022-10-07T20:50:03.807Z</updated>
+    <updated>2022-10-07T20:51:06.615Z</updated>
     
     <content type="html"><![CDATA[<p>Problem Description: <a href="https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/">Least Number of Unique Integers after K Removals</a> </p><p>Data Structure Used: unordered_map&#x2F;hashMap, priority_queue</p><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">class Solution &#123;<br>public:<br>    unordered_map&lt;int, int&gt; m;<br>    int findLeastNumOfUniqueInts(vector&lt;int&gt;&amp; arr, int k) &#123;<br>        <span class="hljs-keyword">for</span> (int i: arr) &#123;<br>            m[i] += 1;<br>        &#125;<br>        priority_queue&lt;int, vector&lt;int&gt;, greater&lt;int&gt;&gt; q;<br>        <span class="hljs-keyword">for</span> (auto g: m) &#123;<br>            q.push(g.second);<br>        &#125;<br>        <span class="hljs-keyword">while</span> (k &gt; 0 &amp;&amp; !q.empty()) &#123;<br>            <span class="hljs-keyword">if</span> (q.top() &lt;= k) &#123;<br>                k -= q.top();<br>                q.pop();<br>            &#125;<br>            <span class="hljs-keyword">else</span> &#123;<br>                <span class="hljs-built_in">return</span> q.size();<br>            &#125;<br>        &#125;<br>        <span class="hljs-built_in">return</span> q.size();<br>    &#125;<br>&#125;;<br></code></pre></td></tr></table></figure>]]></content>
     
