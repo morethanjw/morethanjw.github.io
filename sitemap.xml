@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://morethanjw.github.io/2022/09/24/hello/</loc>
+    
+    <lastmod>2022-10-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://morethanjw.github.io/2022/10/19/Allergy/</loc>
     
     <lastmod>2022-10-21</lastmod>
@@ -14,15 +23,6 @@
     <loc>http://morethanjw.github.io/2022/10/16/LifeLog/</loc>
     
     <lastmod>2022-10-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://morethanjw.github.io/2022/09/24/hello/</loc>
-    
-    <lastmod>2022-10-16</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -47,7 +47,7 @@
 
   
   <url>
-    <loc>http://morethanjw.github.io/tags/Fiction/</loc>
+    <loc>http://morethanjw.github.io/tags/About-Me/</loc>
     <lastmod>2022-10-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -61,7 +61,7 @@
   </url>
   
   <url>
-    <loc>http://morethanjw.github.io/tags/About-Me/</loc>
+    <loc>http://morethanjw.github.io/tags/Fiction/</loc>
     <lastmod>2022-10-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
