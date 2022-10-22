@@ -6,7 +6,7 @@
   <link href="http://morethanjw.github.io/atom.xml" rel="self"/>
   
   <link href="http://morethanjw.github.io/"/>
-  <updated>2022-10-22T06:31:56.056Z</updated>
+  <updated>2022-10-22T15:31:56.822Z</updated>
   <id>http://morethanjw.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://morethanjw.github.io/2022/10/22/%E7%8E%8B%E6%98%AF%E5%B0%8F%E7%99%BD%E8%84%B8/"/>
     <id>http://morethanjw.github.io/2022/10/22/%E7%8E%8B%E6%98%AF%E5%B0%8F%E7%99%BD%E8%84%B8/</id>
     <published>2022-10-22T06:20:45.000Z</published>
-    <updated>2022-10-22T06:31:56.056Z</updated>
+    <updated>2022-10-22T15:31:56.822Z</updated>
     
     <content type="html"><![CDATA[<p>Dear Diary<br>Hope this email finds you well<br>我近来喜欢看安娜堡的晚霞，看月亮，喂松鼠<br>虽然这很不环保，也容易被咬。<br>可是秋天 深秋的景色是这么耐人寻味 寒风吹在身上带去仅含的一点秋意<br>我最近也在喝酒<br>昨天夜里赌咒发誓 决定再也不喝了 喝酒伤身伤肝<br>夜里雄心勃勃骂道 再喝我就是小狗<br>今晨复饮酒 whiskey如常 将誓言抛到九霄云外去了<br>我好废物<br>我想喝酒的时候觉得喝酒能让我忘记所有的忧愁<br>但是是否有一种可能<br>是因为我坚信喝酒能消愁 所以我喝酒的时候才不会去想所有的烦恼<br>当我意识到喝酒也无法拯救我的时候 我继续喝酒<br>于是我在思考自杀的可能<br>但是这个问题太哲学 我的大脑圆溜溜的没有任何褶皱<br>这个问题不适合我<br>我还是只适合喂松鼠<br>不到人生的尽头我也不知道 到底喝酒对我模糊人生的前路是否有帮助<br>今夜我在想<br>醉后不知天在水 满船清梦压星河<br>我还想看更多 我想活的像一朵打上晴空的烟花一样</p>]]></content>
     
@@ -34,7 +34,27 @@
     
     
     
-    <category term="小白脸, 混吃等死, shuaige, 想吃披萨, 我饿了, 为什么还没送到,ubereats还没到, 我在想未来要怎么办, 明天吃什么, 后天吃什么, 存在的意义是什么," scheme="http://morethanjw.github.io/tags/%E5%B0%8F%E7%99%BD%E8%84%B8-%E6%B7%B7%E5%90%83%E7%AD%89%E6%AD%BB-shuaige-%E6%83%B3%E5%90%83%E6%8A%AB%E8%90%A8-%E6%88%91%E9%A5%BF%E4%BA%86-%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BF%98%E6%B2%A1%E9%80%81%E5%88%B0-ubereats%E8%BF%98%E6%B2%A1%E5%88%B0-%E6%88%91%E5%9C%A8%E6%83%B3%E6%9C%AA%E6%9D%A5%E8%A6%81%E6%80%8E%E4%B9%88%E5%8A%9E-%E6%98%8E%E5%A4%A9%E5%90%83%E4%BB%80%E4%B9%88-%E5%90%8E%E5%A4%A9%E5%90%83%E4%BB%80%E4%B9%88-%E5%AD%98%E5%9C%A8%E7%9A%84%E6%84%8F%E4%B9%89%E6%98%AF%E4%BB%80%E4%B9%88/"/>
+    <category term="小白脸" scheme="http://morethanjw.github.io/tags/%E5%B0%8F%E7%99%BD%E8%84%B8/"/>
+    
+    <category term="混吃等死" scheme="http://morethanjw.github.io/tags/%E6%B7%B7%E5%90%83%E7%AD%89%E6%AD%BB/"/>
+    
+    <category term="shuaige" scheme="http://morethanjw.github.io/tags/shuaige/"/>
+    
+    <category term="想吃披萨" scheme="http://morethanjw.github.io/tags/%E6%83%B3%E5%90%83%E6%8A%AB%E8%90%A8/"/>
+    
+    <category term="我饿了" scheme="http://morethanjw.github.io/tags/%E6%88%91%E9%A5%BF%E4%BA%86/"/>
+    
+    <category term="为什么还没送到" scheme="http://morethanjw.github.io/tags/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BF%98%E6%B2%A1%E9%80%81%E5%88%B0/"/>
+    
+    <category term="ubereats还没到" scheme="http://morethanjw.github.io/tags/ubereats%E8%BF%98%E6%B2%A1%E5%88%B0/"/>
+    
+    <category term="我在想未来要怎么办" scheme="http://morethanjw.github.io/tags/%E6%88%91%E5%9C%A8%E6%83%B3%E6%9C%AA%E6%9D%A5%E8%A6%81%E6%80%8E%E4%B9%88%E5%8A%9E/"/>
+    
+    <category term="明天吃什么" scheme="http://morethanjw.github.io/tags/%E6%98%8E%E5%A4%A9%E5%90%83%E4%BB%80%E4%B9%88/"/>
+    
+    <category term="后天吃什么" scheme="http://morethanjw.github.io/tags/%E5%90%8E%E5%A4%A9%E5%90%83%E4%BB%80%E4%B9%88/"/>
+    
+    <category term="存在的意义是什么" scheme="http://morethanjw.github.io/tags/%E5%AD%98%E5%9C%A8%E7%9A%84%E6%84%8F%E4%B9%89%E6%98%AF%E4%BB%80%E4%B9%88/"/>
     
   </entry>
   
