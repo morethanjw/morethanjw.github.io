@@ -70,6 +70,13 @@
   </url>
   
   <url>
+    <loc>http://morethanjw.github.io/tags/C/</loc>
+    <lastmod>2022-10-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://morethanjw.github.io/tags/%E5%B0%8F%E7%99%BD%E8%84%B8/</loc>
     <lastmod>2022-10-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -141,13 +148,6 @@
   
   <url>
     <loc>http://morethanjw.github.io/tags/%E5%AD%98%E5%9C%A8%E7%9A%84%E6%84%8F%E4%B9%89%E6%98%AF%E4%BB%80%E4%B9%88/</loc>
-    <lastmod>2022-10-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://morethanjw.github.io/tags/C/</loc>
     <lastmod>2022-10-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

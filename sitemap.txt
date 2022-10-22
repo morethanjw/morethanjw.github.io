@@ -6,6 +6,7 @@ http://morethanjw.github.io/2022/10/07/leetcode1481/
 http://morethanjw.github.io/
 http://morethanjw.github.io/tags/Fiction/
 http://morethanjw.github.io/tags/About-Me/
+http://morethanjw.github.io/tags/C/
 http://morethanjw.github.io/tags/%E5%B0%8F%E7%99%BD%E8%84%B8/
 http://morethanjw.github.io/tags/%E6%B7%B7%E5%90%83%E7%AD%89%E6%AD%BB/
 http://morethanjw.github.io/tags/shuaige/
@@ -17,4 +18,3 @@ http://morethanjw.github.io/tags/%E6%88%91%E5%9C%A8%E6%83%B3%E6%9C%AA%E6%9D%A5%E
 http://morethanjw.github.io/tags/%E6%98%8E%E5%A4%A9%E5%90%83%E4%BB%80%E4%B9%88/
 http://morethanjw.github.io/tags/%E5%90%8E%E5%A4%A9%E5%90%83%E4%BB%80%E4%B9%88/
 http://morethanjw.github.io/tags/%E5%AD%98%E5%9C%A8%E7%9A%84%E6%84%8F%E4%B9%89%E6%98%AF%E4%BB%80%E4%B9%88/
-http://morethanjw.github.io/tags/C/
