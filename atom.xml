@@ -6,7 +6,7 @@
   <link href="http://morethanjw.github.io/atom.xml" rel="self"/>
   
   <link href="http://morethanjw.github.io/"/>
-  <updated>2023-05-28T04:16:38.583Z</updated>
+  <updated>2023-07-24T03:47:59.608Z</updated>
   <id>http://morethanjw.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>表演时不知该望何边</title>
+    <link href="http://morethanjw.github.io/2023/07/23/%E4%BD%A0%E6%9C%9B%E5%90%93%E5%97%B0%E9%82%8A/"/>
+    <id>http://morethanjw.github.io/2023/07/23/%E4%BD%A0%E6%9C%9B%E5%90%93%E5%97%B0%E9%82%8A/</id>
+    <published>2023-07-24T03:15:17.000Z</published>
+    <updated>2023-07-24T03:47:59.608Z</updated>
+    
+    <content type="html"><![CDATA[<iframe style="border-radius:8px" src="https://open.spotify.com/embed/track/2mfgdpVsRj9ixCM2OBMED2?utm_source=generator" width="70%" height="250" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe><p>临近实习结束，我开始对我又一个无事发生的夏天忧心仲仲。</p><p>从现实的角度考虑，说真的，今年实习学到的还没去年的多。明明是在个行业内还不错的corporation做职位完全对口的实习，最后却总觉得什么也没有学到，代码没写几行，却深刻感觉到了上班这件事对社恐多不友好。明明是和同事摸鱼聊天，到头了下了班却觉得比写了一天代码累多了。不社交也不行，会被觉得不合群，不好合作。我只觉得烦闷，我对没完没了的social talk毫无兴趣，我只想假装什么都听不懂，我本来就什么都没听懂嘛——我的母语是合肥话，在座各位谁都听不懂合肥话不是么。还要做我什么都看不懂的business project，真让人直呼救命。</p><p>我很想做个能在自己工作领域内做到一个至少不错水平的人，想对自己做的事情能得心应手。而工程能力这一能力只有不断积累实践经验才能增长，别无他法。说实话，我真的觉得我这个夏天没有锻炼我任何的代码能力，可是谁又知道呢，说不定工作就是这么回事，看着legacy code照葫芦画瓢，增删改查。一整个大组的实习生忙了一个夏天也只不过是为了一个popup而已，甚至这个popup到最后也只是个react component，甚至不是个新的js browser。</p><p>我想能做点什么，一如我对每个夏天的结束感到迷惘而痛苦不堪。每个夏天都盼望着有什么事能发生，而上大学后的每个夏天又都是如此无事发生的夏天，大一的夏天全在家里白日睡觉徒劳过去；大二的夏天又是换个地方白日睡觉，做了个也是没做什么的internship；大三倒是不白日睡觉了，得早起去办公室，可又有谁知道在办公室发呆是不是另一种白日睡觉。就如此看着自己的生命如此一年一年蹉跎下去，总尝试想做些什么，可是为什么什么都如此无意义。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;iframe style=&quot;border-radius:8px&quot; src=&quot;https://open.spotify.com/embed/track/2mfgdpVsRj9ixCM2OBMED2?utm_source=generator&quot; width=&quot;70%&quot; height=</summary>
+      
+    
+    
+    
+    
+    <category term="我在想未来要怎么办" scheme="http://morethanjw.github.io/tags/%E6%88%91%E5%9C%A8%E6%83%B3%E6%9C%AA%E6%9D%A5%E8%A6%81%E6%80%8E%E4%B9%88%E5%8A%9E/"/>
+    
+    <category term="临行一刻" scheme="http://morethanjw.github.io/tags/%E4%B8%B4%E8%A1%8C%E4%B8%80%E5%88%BB/"/>
+    
+  </entry>
   
   <entry>
     <title>Endless Summer</title>
