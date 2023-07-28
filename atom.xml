@@ -6,7 +6,7 @@
   <link href="http://morethanjw.github.io/atom.xml" rel="self"/>
   
   <link href="http://morethanjw.github.io/"/>
-  <updated>2023-07-24T03:48:57.761Z</updated>
+  <updated>2023-07-28T01:21:48.848Z</updated>
   <id>http://morethanjw.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>LeetCode 283.Move Zeroes</title>
+    <link href="http://morethanjw.github.io/2023/07/27/LeetCode-283-Move-Zeroes/"/>
+    <id>http://morethanjw.github.io/2023/07/27/LeetCode-283-Move-Zeroes/</id>
+    <published>2023-07-28T01:16:07.000Z</published>
+    <updated>2023-07-28T01:21:48.848Z</updated>
+    
+    <content type="html"><![CDATA[<p>Given an integer array nums, move all 0’s to the end of it while maintaining the relative order of the non-zero elements.</p><p>Note that you must do this in-place without making a copy of the array.</p><p>Example 1:<br>Input: nums &#x3D; [0,1,0,3,12]<br>Output: [1,3,12,0,0]</p><p>Example 2:<br>Input: nums &#x3D; [0]<br>Output: [0]</p><figure class="highlight ceylon"><table><tr><td class="code"><pre><code class="hljs ceylon"><span class="hljs-keyword">class</span> Solution:<br>    def moveZeroes(self, nums: List[int]) -&gt; None:<br>        <span class="hljs-string">&quot;&quot;&quot;</span><br><span class="hljs-string">        Do not return anything, modify nums in-place instead.</span><br><span class="hljs-string">        &quot;&quot;&quot;</span><br>        i = <span class="hljs-number">0</span>;<br>        <span class="hljs-keyword">for</span> num <span class="hljs-keyword">in</span> nums:<br>            <span class="hljs-keyword">if</span> num != <span class="hljs-number">0</span>:<br>                nums[i] = num<br>                i += <span class="hljs-number">1</span><br>        <span class="hljs-keyword">while</span> i &lt; len(nums):<br>            nums[i] = <span class="hljs-number">0</span><br>            i += <span class="hljs-number">1</span><br>        <span class="hljs-keyword">return</span> nums<br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Given an integer array nums, move all 0’s to the end of it while maintaining the relative order of the non-zero elements.&lt;/p&gt;
+&lt;p&gt;Note tha</summary>
+      
+    
+    
+    
+    
+    <category term="Python3" scheme="http://morethanjw.github.io/tags/Python3/"/>
+    
+    <category term="Easy" scheme="http://morethanjw.github.io/tags/Easy/"/>
+    
+    <category term="two pointers" scheme="http://morethanjw.github.io/tags/two-pointers/"/>
+    
+  </entry>
   
   <entry>
     <title>表演时不知该望何边</title>
