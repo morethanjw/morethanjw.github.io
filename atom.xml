@@ -6,7 +6,7 @@
   <link href="http://morethanjw.github.io/atom.xml" rel="self"/>
   
   <link href="http://morethanjw.github.io/"/>
-  <updated>2023-07-28T01:21:48.848Z</updated>
+  <updated>2023-07-28T04:39:41.119Z</updated>
   <id>http://morethanjw.github.io/</id>
   
   <author>
@@ -17,11 +17,37 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>LeetCode 881.Boats to Save People</title>
+    <link href="http://morethanjw.github.io/2023/07/28/LeetCode-881-Boats-to-Save-People/"/>
+    <id>http://morethanjw.github.io/2023/07/28/LeetCode-881-Boats-to-Save-People/</id>
+    <published>2023-07-28T04:37:05.000Z</published>
+    <updated>2023-07-28T04:39:41.119Z</updated>
+    
+    <content type="html"><![CDATA[<p>You are given an array people where people[i] is the weight of the ith person, and an infinite number of boats where each boat can carry a maximum weight of limit. Each boat carries at most two people at the same time, provided the sum of the weight of those people is at most limit.</p><p>Return the minimum number of boats to carry every given person.</p><p>Example 1:<br>Input: people &#x3D; [1,2], limit &#x3D; 3<br>Output: 1<br>Explanation: 1 boat (1, 2)</p><p>Example 2:<br>Input: people &#x3D; [3,2,2,1], limit &#x3D; 3<br>Output: 3<br>Explanation: 3 boats (1, 2), (2) and (3)</p><p>Example 3:<br>Input: people &#x3D; [3,5,3,4], limit &#x3D; 5<br>Output: 4<br>Explanation: 4 boats (3), (3), (4), (5)</p><figure class="highlight gradle"><table><tr><td class="code"><pre><code class="hljs gradle"><span class="hljs-keyword">class</span> Solution:<br>    <span class="hljs-keyword">def</span> numRescueBoats(self, people: List[<span class="hljs-keyword">int</span>], limit: <span class="hljs-keyword">int</span>) -&gt; <span class="hljs-keyword">int</span>:<br>        people.<span class="hljs-keyword">sort</span>()<br>        ans = <span class="hljs-number">0</span><br>        i = <span class="hljs-number">0</span><br>        e = len(people) - <span class="hljs-number">1</span><br>        <span class="hljs-keyword">while</span> i &lt;= e:<br>            <span class="hljs-keyword">if</span> (people[i] + people[e] &lt;= limit):<br>                ans += <span class="hljs-number">1</span><br>                i += <span class="hljs-number">1</span><br>                e -= <span class="hljs-number">1</span><br>            <span class="hljs-keyword">else</span>:<br>                ans += <span class="hljs-number">1</span><br>                e -= <span class="hljs-number">1</span><br>        <span class="hljs-keyword">return</span> ans<br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;You are given an array people where people[i] is the weight of the ith person, and an infinite number of boats where each boat can carry </summary>
+      
+    
+    
+    
+    
+    <category term="Python3" scheme="http://morethanjw.github.io/tags/Python3/"/>
+    
+    <category term="two pointers" scheme="http://morethanjw.github.io/tags/two-pointers/"/>
+    
+    <category term="Medium" scheme="http://morethanjw.github.io/tags/Medium/"/>
+    
+  </entry>
+  
+  <entry>
     <title>LeetCode 283.Move Zeroes</title>
     <link href="http://morethanjw.github.io/2023/07/27/LeetCode-283-Move-Zeroes/"/>
     <id>http://morethanjw.github.io/2023/07/27/LeetCode-283-Move-Zeroes/</id>
     <published>2023-07-28T01:16:07.000Z</published>
-    <updated>2023-07-28T01:21:48.848Z</updated>
+    <updated>2023-07-28T01:22:24.315Z</updated>
     
     <content type="html"><![CDATA[<p>Given an integer array nums, move all 0’s to the end of it while maintaining the relative order of the non-zero elements.</p><p>Note that you must do this in-place without making a copy of the array.</p><p>Example 1:<br>Input: nums &#x3D; [0,1,0,3,12]<br>Output: [1,3,12,0,0]</p><p>Example 2:<br>Input: nums &#x3D; [0]<br>Output: [0]</p><figure class="highlight ceylon"><table><tr><td class="code"><pre><code class="hljs ceylon"><span class="hljs-keyword">class</span> Solution:<br>    def moveZeroes(self, nums: List[int]) -&gt; None:<br>        <span class="hljs-string">&quot;&quot;&quot;</span><br><span class="hljs-string">        Do not return anything, modify nums in-place instead.</span><br><span class="hljs-string">        &quot;&quot;&quot;</span><br>        i = <span class="hljs-number">0</span>;<br>        <span class="hljs-keyword">for</span> num <span class="hljs-keyword">in</span> nums:<br>            <span class="hljs-keyword">if</span> num != <span class="hljs-number">0</span>:<br>                nums[i] = num<br>                i += <span class="hljs-number">1</span><br>        <span class="hljs-keyword">while</span> i &lt; len(nums):<br>            nums[i] = <span class="hljs-number">0</span><br>            i += <span class="hljs-number">1</span><br>        <span class="hljs-keyword">return</span> nums<br></code></pre></td></tr></table></figure>]]></content>
     

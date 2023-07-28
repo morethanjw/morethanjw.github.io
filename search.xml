@@ -1,6 +1,110 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hello/你好</title>
+    <url>/2022/09/24/Hello/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://morethanjw.github.io/">Jianyi’s Archive</a>! This is Jianyi Wang from University of Michigan, Class of 2024.</p>
+<p>In my spare time, I also like to play piano, watch movies and animations(a big fan of <a href="https://www.imdb.com/name/nm0464804/">Satoshi Kon</a>), and read novels(my favorite author is <a href="http://www.ianmcewan.com/">Ian McEwan</a>). Look into this archive and know more about me!</p>
+<h2 id="Abstract-Updating"><a href="#Abstract-Updating" class="headerlink" title="Abstract(Updating!)"></a>Abstract(Updating!)</h2><h3 id="Projects"><a href="#Projects" class="headerlink" title="Projects"></a>Projects</h3><h4 id="MCommunity-Transformation"><a href="#MCommunity-Transformation" class="headerlink" title="MCommunity Transformation"></a>MCommunity Transformation</h4><pre><code>Tech Stack Used: Python(django)
+</code></pre>
+<p>Click <a href="https://mcommunity.umich.edu/">here</a> to see the new MCommunity web page!</p>
+<h4 id="Service-Request-System-Redesign"><a href="#Service-Request-System-Redesign" class="headerlink" title="Service Request System Redesign"></a>Service Request System Redesign</h4><pre><code>Tech Stack Used: CSS/HTML(bootstrap)
+</code></pre>
+<p>Click <a href="https://srs.it.umich.edu/">here</a> to see the new Service Request System web page!</p>
+<h3 id="Demos"><a href="#Demos" class="headerlink" title="Demos"></a>Demos</h3><h3 id="ShortCodes"><a href="#ShortCodes" class="headerlink" title="ShortCodes"></a>ShortCodes</h3><p><a href="https://morethanjw.github.io/2022/10/07/leetcode1481/">Leetcode 1481</a></p>
+<h3 id="Fictions"><a href="#Fictions" class="headerlink" title="Fictions"></a>Fictions</h3><h4 id="Cupidity-Mandarin-2021"><a href="#Cupidity-Mandarin-2021" class="headerlink" title="Cupidity[Mandarin, 2021]"></a>Cupidity[Mandarin, 2021]</h4><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">Though happiness is a butterfly.<br></code></pre></td></tr></table></figure>
+
+<p>Chapter I: <a href="">The Third Time</a></p>
+<p>Chapter II: <a href="">The Broken Joseon White Porcelain</a></p>
+<p>Chapter III: <a href="">Sunshower</a></p>
+<p>Chapter IV: <a href="">In Utopia</a></p>
+<p>Chapter V: <a href="">Breathe</a></p>
+]]></content>
+      <tags>
+        <tag>About Me</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>LeetCode 881.Boats to Save People</title>
+    <url>/2023/07/28/LeetCode-881-Boats-to-Save-People/</url>
+    <content><![CDATA[<p>You are given an array people where people[i] is the weight of the ith person, and an infinite number of boats where each boat can carry a maximum weight of limit. Each boat carries at most two people at the same time, provided the sum of the weight of those people is at most limit.</p>
+<p>Return the minimum number of boats to carry every given person.</p>
+<p>Example 1:<br>Input: people &#x3D; [1,2], limit &#x3D; 3<br>Output: 1<br>Explanation: 1 boat (1, 2)</p>
+<p>Example 2:<br>Input: people &#x3D; [3,2,2,1], limit &#x3D; 3<br>Output: 3<br>Explanation: 3 boats (1, 2), (2) and (3)</p>
+<p>Example 3:<br>Input: people &#x3D; [3,5,3,4], limit &#x3D; 5<br>Output: 4<br>Explanation: 4 boats (3), (3), (4), (5)</p>
+<figure class="highlight gradle"><table><tr><td class="code"><pre><code class="hljs gradle"><span class="hljs-keyword">class</span> Solution:<br>    <span class="hljs-keyword">def</span> numRescueBoats(self, people: List[<span class="hljs-keyword">int</span>], limit: <span class="hljs-keyword">int</span>) -&gt; <span class="hljs-keyword">int</span>:<br>        people.<span class="hljs-keyword">sort</span>()<br>        ans = <span class="hljs-number">0</span><br>        i = <span class="hljs-number">0</span><br>        e = len(people) - <span class="hljs-number">1</span><br>        <span class="hljs-keyword">while</span> i &lt;= e:<br>            <span class="hljs-keyword">if</span> (people[i] + people[e] &lt;= limit):<br>                ans += <span class="hljs-number">1</span><br>                i += <span class="hljs-number">1</span><br>                e -= <span class="hljs-number">1</span><br>            <span class="hljs-keyword">else</span>:<br>                ans += <span class="hljs-number">1</span><br>                e -= <span class="hljs-number">1</span><br>        <span class="hljs-keyword">return</span> ans<br></code></pre></td></tr></table></figure>
+]]></content>
+      <tags>
+        <tag>Python3</tag>
+        <tag>two pointers</tag>
+        <tag>Medium</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>LeetCode 283.Move Zeroes</title>
+    <url>/2023/07/27/LeetCode-283-Move-Zeroes/</url>
+    <content><![CDATA[<p>Given an integer array nums, move all 0’s to the end of it while maintaining the relative order of the non-zero elements.</p>
+<p>Note that you must do this in-place without making a copy of the array.</p>
+<p>Example 1:<br>Input: nums &#x3D; [0,1,0,3,12]<br>Output: [1,3,12,0,0]</p>
+<p>Example 2:<br>Input: nums &#x3D; [0]<br>Output: [0]</p>
+<figure class="highlight ceylon"><table><tr><td class="code"><pre><code class="hljs ceylon"><span class="hljs-keyword">class</span> Solution:<br>    def moveZeroes(self, nums: List[int]) -&gt; None:<br>        <span class="hljs-string">&quot;&quot;&quot;</span><br><span class="hljs-string">        Do not return anything, modify nums in-place instead.</span><br><span class="hljs-string">        &quot;&quot;&quot;</span><br>        i = <span class="hljs-number">0</span>;<br>        <span class="hljs-keyword">for</span> num <span class="hljs-keyword">in</span> nums:<br>            <span class="hljs-keyword">if</span> num != <span class="hljs-number">0</span>:<br>                nums[i] = num<br>                i += <span class="hljs-number">1</span><br>        <span class="hljs-keyword">while</span> i &lt; len(nums):<br>            nums[i] = <span class="hljs-number">0</span><br>            i += <span class="hljs-number">1</span><br>        <span class="hljs-keyword">return</span> nums<br></code></pre></td></tr></table></figure>
+]]></content>
+      <tags>
+        <tag>Python3</tag>
+        <tag>Easy</tag>
+        <tag>two pointers</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>表演时不知该望何边</title>
+    <url>/2023/07/23/%E4%BD%A0%E6%9C%9B%E5%90%93%E5%97%B0%E9%82%8A/</url>
+    <content><![CDATA[<iframe style="border-radius:8px" src="https://open.spotify.com/embed/track/2mfgdpVsRj9ixCM2OBMED2?utm_source=generator" width="70%" height="250" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+<p>临近实习结束，我开始对我又一个无事发生的夏天忧心仲仲。</p>
+<p>从现实的角度考虑，说真的，今年实习学到的还没去年的多。明明是在个行业内还不错的corporation做职位完全对口的实习，最后却总觉得什么也没有学到，代码没写几行，却深刻感觉到了上班这件事对社恐多不友好。明明是和同事摸鱼聊天，到头了下了班却觉得比写了一天代码累多了。不社交也不行，会被觉得不合群，不好合作。我只觉得烦闷，我对没完没了的social talk毫无兴趣，我只想假装什么都听不懂，我本来就什么都没听懂嘛——我的母语是合肥话，在座各位谁都听不懂合肥话不是么。还要做我什么都看不懂的business project，真让人直呼救命。</p>
+<p>我很想做个能在自己工作领域内做到一个至少不错水平的人，想对自己做的事情能得心应手。而工程能力这一能力只有不断积累实践经验才能增长，别无他法。说实话，我真的觉得我这个夏天没有锻炼我任何的代码能力，可是谁又知道呢，说不定工作就是这么回事，看着legacy code照葫芦画瓢，增删改查。一整个大组的实习生忙了一个夏天也只不过是为了一个popup而已，甚至这个popup到最后也只是个react component，甚至不是个新的js browser。</p>
+<p>我想能做点什么，一如我对每个夏天的结束感到迷惘而痛苦不堪。每个夏天都盼望着有什么事能发生，而上大学后的每个夏天又都是如此无事发生的夏天，大一的夏天全在家里白日睡觉徒劳过去；大二的夏天又是换个地方白日睡觉，做了个也是没做什么的internship；大三倒是不白日睡觉了，得早起去办公室，可又有谁知道在办公室发呆是不是另一种白日睡觉。就如此看着自己的生命如此一年一年蹉跎下去，总尝试想做些什么，可是为什么什么都如此无意义。</p>
+]]></content>
+      <tags>
+        <tag>我在想未来要怎么办</tag>
+        <tag>临行一刻</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Endless Summer</title>
+    <url>/2023/05/27/Endless-Summer/</url>
+    <content><![CDATA[<p>每年一到四月就会由衷地厌人，痛恨自己身边每一个个体的存在，甚至有的时候可以包括自己。于是在初一那年不小心用美工刀割伤自己，直到鲜血流出来的那一刻才吓了一跳–我居然干了这种事。</p>
+<p>到了五月六月便开始痛恨自己居然活着这件事，尝试的解决办法是逃避现实。大一那年的五月每天看一部韩剧，巴不得住在韩剧里，一旦回到现实世界就有着企盼世界早日毁灭的真诚祈祷。</p>
+<p>写到这里看了一眼title，随手打了一个endless summer，但是写的东西和夏天一点关系都没有。四五月份在合肥勉强能算夏天抬了个头，可是到了安娜堡可就什么也不算了，四十多华氏度的温度倒是endless的那一个。</p>
+<p>写到这里才知道其实自己什么也不想写，什么也都写不出来，我的写作热情总和我对拥有不一样的生活的热情成正比生长。而今我唯一在想的只有未来到底要怎么办。是要继续假装看不见自己其实已经放弃做个不让过去的自己讨厌的人的趋势还是努力振奋明知道大概率不会成功的尝试，是要试着做个好人尝试有点热情尝试喜欢上自己现在的生活和自己还是随着水流游下去。我并不知道答案，我只是厌倦了漫长的季节，厌倦了沉闷的寂静，我只是想自由。</p>
+<br/>
+<iframe src="https://open.spotify.com/embed/track/761QvVHTibYjEi2r6A4g4Q?si=569df72ed142446c" width="300" height="380" frameborder="0" allowtransparency="allowtransparency" allow="encrypted-media"></iframe>
+]]></content>
+      <tags>
+        <tag>我在想未来要怎么办</tag>
+        <tag>临行一刻</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>王是小白脸</title>
+    <url>/2022/10/22/%E7%8E%8B%E6%98%AF%E5%B0%8F%E7%99%BD%E8%84%B8/</url>
+    <content><![CDATA[<p>Dear Diary<br>Hope this email finds you well<br>我近来喜欢看安娜堡的晚霞，看月亮，喂松鼠<br>虽然这很不环保，也容易被咬。<br>可是秋天 深秋的景色是这么耐人寻味 寒风吹在身上带去仅含的一点秋意<br>我最近也在喝酒<br>昨天夜里赌咒发誓 决定再也不喝了 喝酒伤身伤肝<br>夜里雄心勃勃骂道 再喝我就是小狗<br>今晨复饮酒 whiskey如常 将誓言抛到九霄云外去了<br>我好废物<br>我想喝酒的时候觉得喝酒能让我忘记所有的忧愁<br>但是是否有一种可能<br>是因为我坚信喝酒能消愁 所以我喝酒的时候才不会去想所有的烦恼<br>当我意识到喝酒也无法拯救我的时候 我继续喝酒<br>于是我在思考自杀的可能<br>但是这个问题太哲学 我的大脑圆溜溜的没有任何褶皱<br>这个问题不适合我<br>我还是只适合喂松鼠<br>不到人生的尽头我也不知道 到底喝酒对我模糊人生的前路是否有帮助<br>今夜我在想<br>醉后不知天在水 满船清梦压星河<br>我还想看更多 我想活的像一朵打上晴空的烟花一样</p>
+]]></content>
+      <tags>
+        <tag>我在想未来要怎么办</tag>
+        <tag>小白脸</tag>
+        <tag>混吃等死</tag>
+        <tag>shuaige</tag>
+        <tag>想吃披萨</tag>
+        <tag>我饿了</tag>
+        <tag>为什么还没送到</tag>
+        <tag>ubereats还没到</tag>
+        <tag>明天吃什么</tag>
+        <tag>后天吃什么</tag>
+        <tag>存在的意义是什么</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Allergy</title>
     <url>/2022/10/19/Allergy/</url>
     <content><![CDATA[<p>下午三点半，我走进学校附近的中餐馆。</p>
@@ -40,56 +144,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Leetcode 1481</title>
-    <url>/2022/10/07/leetcode1481/</url>
-    <content><![CDATA[<p>Problem Description: <a href="https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/">Least Number of Unique Integers after K Removals</a> </p>
-<p>Data Structure Used: unordered_map&#x2F;hashMap, priority_queue</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">class Solution &#123;<br>public:<br>    unordered_map&lt;int, int&gt; m;<br>    int findLeastNumOfUniqueInts(vector&lt;int&gt;&amp; arr, int k) &#123;<br>        <span class="hljs-keyword">for</span> (int i: arr) &#123;<br>            m[i] += 1;<br>        &#125;<br>        priority_queue&lt;int, vector&lt;int&gt;, greater&lt;int&gt;&gt; q;<br>        <span class="hljs-keyword">for</span> (auto g: m) &#123;<br>            q.push(g.second);<br>        &#125;<br>        <span class="hljs-keyword">while</span> (k &gt; 0 &amp;&amp; !q.empty()) &#123;<br>            <span class="hljs-keyword">if</span> (q.top() &lt;= k) &#123;<br>                k -= q.top();<br>                q.pop();<br>            &#125;<br>            <span class="hljs-keyword">else</span> &#123;<br>                <span class="hljs-built_in">return</span> q.size();<br>            &#125;<br>        &#125;<br>        <span class="hljs-built_in">return</span> q.size();<br>    &#125;<br>&#125;;<br></code></pre></td></tr></table></figure>
-]]></content>
-      <tags>
-        <tag>C++</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Endless Summer</title>
-    <url>/2023/05/27/Endless-Summer/</url>
-    <content><![CDATA[<p>每年一到四月就会由衷地厌人，痛恨自己身边每一个个体的存在，甚至有的时候可以包括自己。于是在初一那年不小心用美工刀割伤自己，直到鲜血流出来的那一刻才吓了一跳–我居然干了这种事。</p>
-<p>到了五月六月便开始痛恨自己居然活着这件事，尝试的解决办法是逃避现实。大一那年的五月每天看一部韩剧，巴不得住在韩剧里，一旦回到现实世界就有着企盼世界早日毁灭的真诚祈祷。</p>
-<p>写到这里看了一眼title，随手打了一个endless summer，但是写的东西和夏天一点关系都没有。四五月份在合肥勉强能算夏天抬了个头，可是到了安娜堡可就什么也不算了，四十多华氏度的温度倒是endless的那一个。</p>
-<p>写到这里才知道其实自己什么也不想写，什么也都写不出来，我的写作热情总和我对拥有不一样的生活的热情成正比生长。而今我唯一在想的只有未来到底要怎么办。是要继续假装看不见自己其实已经放弃做个不让过去的自己讨厌的人的趋势还是努力振奋明知道大概率不会成功的尝试，是要试着做个好人尝试有点热情尝试喜欢上自己现在的生活和自己还是随着水流游下去。我并不知道答案，我只是厌倦了漫长的季节，厌倦了沉闷的寂静，我只是想自由。</p>
-<br/>
-<iframe src="https://open.spotify.com/embed/track/761QvVHTibYjEi2r6A4g4Q?si=569df72ed142446c" width="300" height="380" frameborder="0" allowtransparency="allowtransparency" allow="encrypted-media"></iframe>
-]]></content>
-      <tags>
-        <tag>我在想未来要怎么办</tag>
-        <tag>临行一刻</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello/你好</title>
-    <url>/2022/09/24/Hello/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://morethanjw.github.io/">Jianyi’s Archive</a>! This is Jianyi Wang from University of Michigan, Class of 2024.</p>
-<p>In my spare time, I also like to play piano, watch movies and animations(a big fan of <a href="https://www.imdb.com/name/nm0464804/">Satoshi Kon</a>), and read novels(my favorite author is <a href="http://www.ianmcewan.com/">Ian McEwan</a>). Look into this archive and know more about me!</p>
-<h2 id="Abstract-Updating"><a href="#Abstract-Updating" class="headerlink" title="Abstract(Updating!)"></a>Abstract(Updating!)</h2><h3 id="Projects"><a href="#Projects" class="headerlink" title="Projects"></a>Projects</h3><h4 id="MCommunity-Transformation"><a href="#MCommunity-Transformation" class="headerlink" title="MCommunity Transformation"></a>MCommunity Transformation</h4><pre><code>Tech Stack Used: Python(django)
-</code></pre>
-<p>Click <a href="https://mcommunity.umich.edu/">here</a> to see the new MCommunity web page!</p>
-<h4 id="Service-Request-System-Redesign"><a href="#Service-Request-System-Redesign" class="headerlink" title="Service Request System Redesign"></a>Service Request System Redesign</h4><pre><code>Tech Stack Used: CSS/HTML(bootstrap)
-</code></pre>
-<p>Click <a href="https://srs.it.umich.edu/">here</a> to see the new Service Request System web page!</p>
-<h3 id="Demos"><a href="#Demos" class="headerlink" title="Demos"></a>Demos</h3><h3 id="ShortCodes"><a href="#ShortCodes" class="headerlink" title="ShortCodes"></a>ShortCodes</h3><p><a href="https://morethanjw.github.io/2022/10/07/leetcode1481/">Leetcode 1481</a></p>
-<h3 id="Fictions"><a href="#Fictions" class="headerlink" title="Fictions"></a>Fictions</h3><h4 id="Cupidity-Mandarin-2021"><a href="#Cupidity-Mandarin-2021" class="headerlink" title="Cupidity[Mandarin, 2021]"></a>Cupidity[Mandarin, 2021]</h4><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">Though happiness is a butterfly.<br></code></pre></td></tr></table></figure>
-
-<p>Chapter I: <a href="">The Third Time</a></p>
-<p>Chapter II: <a href="">The Broken Joseon White Porcelain</a></p>
-<p>Chapter III: <a href="">Sunshower</a></p>
-<p>Chapter IV: <a href="">In Utopia</a></p>
-<p>Chapter V: <a href="">Breathe</a></p>
-]]></content>
-      <tags>
-        <tag>About Me</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Life Log</title>
     <url>/2022/10/16/LifeLog/</url>
     <content><![CDATA[<pre><code>Sun Oct 16, 22:07
@@ -105,52 +159,14 @@
       </tags>
   </entry>
   <entry>
-    <title>王是小白脸</title>
-    <url>/2022/10/22/%E7%8E%8B%E6%98%AF%E5%B0%8F%E7%99%BD%E8%84%B8/</url>
-    <content><![CDATA[<p>Dear Diary<br>Hope this email finds you well<br>我近来喜欢看安娜堡的晚霞，看月亮，喂松鼠<br>虽然这很不环保，也容易被咬。<br>可是秋天 深秋的景色是这么耐人寻味 寒风吹在身上带去仅含的一点秋意<br>我最近也在喝酒<br>昨天夜里赌咒发誓 决定再也不喝了 喝酒伤身伤肝<br>夜里雄心勃勃骂道 再喝我就是小狗<br>今晨复饮酒 whiskey如常 将誓言抛到九霄云外去了<br>我好废物<br>我想喝酒的时候觉得喝酒能让我忘记所有的忧愁<br>但是是否有一种可能<br>是因为我坚信喝酒能消愁 所以我喝酒的时候才不会去想所有的烦恼<br>当我意识到喝酒也无法拯救我的时候 我继续喝酒<br>于是我在思考自杀的可能<br>但是这个问题太哲学 我的大脑圆溜溜的没有任何褶皱<br>这个问题不适合我<br>我还是只适合喂松鼠<br>不到人生的尽头我也不知道 到底喝酒对我模糊人生的前路是否有帮助<br>今夜我在想<br>醉后不知天在水 满船清梦压星河<br>我还想看更多 我想活的像一朵打上晴空的烟花一样</p>
+    <title>Leetcode 1481</title>
+    <url>/2022/10/07/leetcode1481/</url>
+    <content><![CDATA[<p>Problem Description: <a href="https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/">Least Number of Unique Integers after K Removals</a> </p>
+<p>Data Structure Used: unordered_map&#x2F;hashMap, priority_queue</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">class Solution &#123;<br>public:<br>    unordered_map&lt;int, int&gt; m;<br>    int findLeastNumOfUniqueInts(vector&lt;int&gt;&amp; arr, int k) &#123;<br>        <span class="hljs-keyword">for</span> (int i: arr) &#123;<br>            m[i] += 1;<br>        &#125;<br>        priority_queue&lt;int, vector&lt;int&gt;, greater&lt;int&gt;&gt; q;<br>        <span class="hljs-keyword">for</span> (auto g: m) &#123;<br>            q.push(g.second);<br>        &#125;<br>        <span class="hljs-keyword">while</span> (k &gt; 0 &amp;&amp; !q.empty()) &#123;<br>            <span class="hljs-keyword">if</span> (q.top() &lt;= k) &#123;<br>                k -= q.top();<br>                q.pop();<br>            &#125;<br>            <span class="hljs-keyword">else</span> &#123;<br>                <span class="hljs-built_in">return</span> q.size();<br>            &#125;<br>        &#125;<br>        <span class="hljs-built_in">return</span> q.size();<br>    &#125;<br>&#125;;<br></code></pre></td></tr></table></figure>
 ]]></content>
       <tags>
-        <tag>我在想未来要怎么办</tag>
-        <tag>小白脸</tag>
-        <tag>混吃等死</tag>
-        <tag>shuaige</tag>
-        <tag>想吃披萨</tag>
-        <tag>我饿了</tag>
-        <tag>为什么还没送到</tag>
-        <tag>ubereats还没到</tag>
-        <tag>明天吃什么</tag>
-        <tag>后天吃什么</tag>
-        <tag>存在的意义是什么</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>LeetCode 283.Move Zeroes</title>
-    <url>/2023/07/27/LeetCode-283-Move-Zeroes/</url>
-    <content><![CDATA[<p>Given an integer array nums, move all 0’s to the end of it while maintaining the relative order of the non-zero elements.</p>
-<p>Note that you must do this in-place without making a copy of the array.</p>
-<p>Example 1:<br>Input: nums &#x3D; [0,1,0,3,12]<br>Output: [1,3,12,0,0]</p>
-<p>Example 2:<br>Input: nums &#x3D; [0]<br>Output: [0]</p>
-<figure class="highlight ceylon"><table><tr><td class="code"><pre><code class="hljs ceylon"><span class="hljs-keyword">class</span> Solution:<br>    def moveZeroes(self, nums: List[int]) -&gt; None:<br>        <span class="hljs-string">&quot;&quot;&quot;</span><br><span class="hljs-string">        Do not return anything, modify nums in-place instead.</span><br><span class="hljs-string">        &quot;&quot;&quot;</span><br>        i = <span class="hljs-number">0</span>;<br>        <span class="hljs-keyword">for</span> num <span class="hljs-keyword">in</span> nums:<br>            <span class="hljs-keyword">if</span> num != <span class="hljs-number">0</span>:<br>                nums[i] = num<br>                i += <span class="hljs-number">1</span><br>        <span class="hljs-keyword">while</span> i &lt; len(nums):<br>            nums[i] = <span class="hljs-number">0</span><br>            i += <span class="hljs-number">1</span><br>        <span class="hljs-keyword">return</span> nums<br></code></pre></td></tr></table></figure>
-]]></content>
-      <tags>
-        <tag>Python3</tag>
-        <tag>Easy</tag>
-        <tag>two pointers</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>表演时不知该望何边</title>
-    <url>/2023/07/23/%E4%BD%A0%E6%9C%9B%E5%90%93%E5%97%B0%E9%82%8A/</url>
-    <content><![CDATA[<iframe style="border-radius:8px" src="https://open.spotify.com/embed/track/2mfgdpVsRj9ixCM2OBMED2?utm_source=generator" width="70%" height="250" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-<p>临近实习结束，我开始对我又一个无事发生的夏天忧心仲仲。</p>
-<p>从现实的角度考虑，说真的，今年实习学到的还没去年的多。明明是在个行业内还不错的corporation做职位完全对口的实习，最后却总觉得什么也没有学到，代码没写几行，却深刻感觉到了上班这件事对社恐多不友好。明明是和同事摸鱼聊天，到头了下了班却觉得比写了一天代码累多了。不社交也不行，会被觉得不合群，不好合作。我只觉得烦闷，我对没完没了的social talk毫无兴趣，我只想假装什么都听不懂，我本来就什么都没听懂嘛——我的母语是合肥话，在座各位谁都听不懂合肥话不是么。还要做我什么都看不懂的business project，真让人直呼救命。</p>
-<p>我很想做个能在自己工作领域内做到一个至少不错水平的人，想对自己做的事情能得心应手。而工程能力这一能力只有不断积累实践经验才能增长，别无他法。说实话，我真的觉得我这个夏天没有锻炼我任何的代码能力，可是谁又知道呢，说不定工作就是这么回事，看着legacy code照葫芦画瓢，增删改查。一整个大组的实习生忙了一个夏天也只不过是为了一个popup而已，甚至这个popup到最后也只是个react component，甚至不是个新的js browser。</p>
-<p>我想能做点什么，一如我对每个夏天的结束感到迷惘而痛苦不堪。每个夏天都盼望着有什么事能发生，而上大学后的每个夏天又都是如此无事发生的夏天，大一的夏天全在家里白日睡觉徒劳过去；大二的夏天又是换个地方白日睡觉，做了个也是没做什么的internship；大三倒是不白日睡觉了，得早起去办公室，可又有谁知道在办公室发呆是不是另一种白日睡觉。就如此看着自己的生命如此一年一年蹉跎下去，总尝试想做些什么，可是为什么什么都如此无意义。</p>
-]]></content>
-      <tags>
-        <tag>我在想未来要怎么办</tag>
-        <tag>临行一刻</tag>
+        <tag>C++</tag>
       </tags>
   </entry>
 </search>
