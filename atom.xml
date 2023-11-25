@@ -29,7 +29,12 @@
         
         
     <summary type="html">&lt;p&gt;前几天和姚女士聊天，聊起身边人，姚女士表示身边的成功大学生好像都是这类的，可能也只有这类人能在美国卷出来。于是我在想还有没有另一种活得好的方式。&lt;/p&gt;
-&lt;p&gt;当然是有的。只不过能过另一种的生活的人又都有一些inborn的不寻常的attributes，在我这种又懒又不天资平</summary>
+&lt;p&gt;当然是有的。只不过能过另一种的生活的人又都有一些inborn的不寻常的attributes，在我这种又懒又不天资平平的普通人身上找不到也实现不了。&lt;/p&gt;
+&lt;p&gt;我开始相信美好生活一定可以等来，就像钱一定会从天上掉下来（我这么相信不是因为我的naturali ratione真的推导出来了什么，而是单纯的“我真的很想相信，所以我相信”）。学期过了一大半，我真的好想说“好累啊，真的不想再这么过下去了“，却因为真的不知道自己做了什么让自己这么累而闭嘴，更因为不知道什么样的生活才能让我不累而陷入沉思。在这种情况下，就算我真的过上美好生活了，我也无法知道自己在过美好生活。&lt;/p&gt;
+&lt;p&gt;在这种无法aware自己生活状态的情况下，我来到了21岁这个节点。&lt;/p&gt;
+&lt;p&gt;回头望过去的生活，我更加理解了“没有出路，只有幻想”这一claim。以往只觉得可能是句悲观主义者的宣言，今日才发觉可能更是现实主义的客观叙述。“只要能够拥有&amp;#x2F;达成XXXX，就可以解决人生的问题”本身不仅条件是虚无漂渺的假设，后半段更是只存在于幻想。什么都无法解决问题，生活不过是个天平，一个问题被解决了永远会有新的问题再冒出来，做到绝对的平衡难，维持平衡更是难上加难。&lt;/p&gt;
+&lt;p&gt;我开始竭力不去思考，那么问题便无条件的不存在。正如喝酒可以让我无条件的快乐，可以让我内心世界无条件地快速涌动。&lt;/p&gt;
+&lt;p&gt;21岁生日的晚上和朋友喝酒，喝完回家半夜坐在blue bus上面。看着这么多的街灯亮着，从中校到北校的路上没有一个人，街灯的存在看起来在此刻没有那么大的意义。我脑子里面开始冒出存在先于本质。路灯一闪一闪的投射到公交车的地面上，我猛然发现我坐了两三年的校车地面在夜晚光的折射下会一闪一闪的，就像诗歌舞街和Hudson Yards一样。我拼命眨眼生怕是自己喝酒喝过头导致的，可是那一闪一闪的确实存在。眼前blus</summary>
         
       
     
@@ -52,7 +57,12 @@
       
         
         
-    <summary type="html">&lt;p&gt;You are given an array people where people[i] is the weight of the ith person, and an infinite number of boats where each boat can carry</summary>
+    <summary type="html">&lt;p&gt;You are given an array people where people[i] is the weight of the ith person, and an infinite number of boats where each boat can carry a maximum weight of limit. Each boat carries at most two people at the same time, provided the sum of the weight of those people is at most limit.&lt;/p&gt;
+&lt;p&gt;Return the minimum number of boats to carry every given person.&lt;/p&gt;
+&lt;p&gt;Example 1:&lt;br&gt;Input: people &amp;#x3D; [1,2], limit &amp;#x3D; 3&lt;br&gt;Output: 1&lt;br&gt;Explanation: 1 boat (1, 2)&lt;/p&gt;
+&lt;p&gt;Example 2:&lt;br&gt;Input: people &amp;#x3D; [3,2,2,1], limit &amp;#x3D; 3&lt;br&gt;Output: 3&lt;br&gt;Explanation: 3 boats (1, 2), (2) and (3)&lt;/p&gt;
+&lt;p&gt;Example 3:&lt;br&gt;Input: people &amp;#x3D; [3,5,3,4], limit &amp;#x3D; 5&lt;br&gt;Output: 4&lt;br&gt;Explanation: 4 boats (3), (3), (4), (5)&lt;/p&gt;
+&lt;figure class=&quot;highlight gradle&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;code class=&quot;hljs gradle&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;class&lt;/span&gt; Solution:&lt;br&gt;    &lt;span class=&quot;hljs-keyword&quot;&gt;def&lt;/span&gt; numRescueBoats(self, people: List[&lt;span class=&quot;hljs-keyword&quot;&gt;int&lt;/span&gt;], limit: &lt;span</summary>
         
       
     
@@ -80,7 +90,10 @@
         
         
     <summary type="html">&lt;p&gt;Given an integer array nums, move all 0’s to the end of it while maintaining the relative order of the non-zero elements.&lt;/p&gt;
-&lt;p&gt;Note</summary>
+&lt;p&gt;Note that you must do this in-place without making a copy of the array.&lt;/p&gt;
+&lt;p&gt;Example 1:&lt;br&gt;Input: nums &amp;#x3D; [0,1,0,3,12]&lt;br&gt;Output: [1,3,12,0,0]&lt;/p&gt;
+&lt;p&gt;Example 2:&lt;br&gt;Input: nums &amp;#x3D; [0]&lt;br&gt;Output: [0]&lt;/p&gt;
+&lt;figure class=&quot;highlight ceylon&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;code class=&quot;hljs ceylon&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;class&lt;/span&gt; Solution:&lt;br&gt;    def moveZeroes(self, nums: List[int]) -&amp;gt; None:&lt;br&gt;        &lt;span class=&quot;hljs-string&quot;&gt;&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;hljs-string&quot;&gt;        Do not return anything, modify nums in-place instead.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;hljs-string&quot;&gt;        &amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;&lt;br&gt;        i = &lt;span class=&quot;hljs-number&quot;&gt;0&lt;/span&gt;;&lt;br&gt;        &lt;span class=&quot;hljs-keyword&quot;&gt;for&lt;/span&gt; num &lt;span class=&quot;hljs-keyword&quot;&gt;in&lt;/span&gt; nums:&lt;br&gt;            &lt;span class=&quot;hljs-keyword&quot;&gt;if&lt;/span&gt; num != &lt;span</summary>
         
       
     
@@ -107,7 +120,11 @@
       
         
         
-    <summary type="html">&lt;iframe style=&quot;border-radius:8px&quot; src=&quot;https://open.spotify.com/embed/track/2mfgdpVsRj9ixCM2OBMED2?utm_source=generator&quot; width=&quot;70%&quot;</summary>
+    <summary type="html">&lt;iframe style=&quot;border-radius:8px&quot; src=&quot;https://open.spotify.com/embed/track/2mfgdpVsRj9ixCM2OBMED2?utm_source=generator&quot; width=&quot;70%&quot; height=&quot;250&quot; frameBorder=&quot;0&quot; allowfullscreen=&quot;&quot; allow=&quot;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&quot; loading=&quot;lazy&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;临近实习结束，我开始对我又一个无事发生的夏天忧心仲仲。&lt;/p&gt;
+&lt;p&gt;从现实的角度考虑，说真的，今年实习学到的还没去年的多。明明是在个行业内还不错的corporation做职位完全对口的实习，最后却总觉得什么也没有学到，代码没写几行，却深刻感觉到了上班这件事对社恐多不友好。明明是和同事摸鱼聊天，到头了下了班却觉得比写了一天代码累多了。不社交也不行，会被觉得不合群，不好合作。我只觉得烦闷，我对没完没了的social talk毫无兴趣，我只想假装什么都听不懂，我本来就什么都没听懂嘛——我的母语是合肥话，在座各位谁都听不懂合肥话不是么。还要做我什么都看不懂的business project，真让人直呼救命。&lt;/p&gt;
+&lt;p&gt;我很想做个能在自己工作领域内做到一个至少不错水平的人，想对自己做的事情能得心应手。而工程能力这一能力只有不断积累实践经验才能增长，别无他法。说实话，我真的觉得我这个夏天没有锻炼我任何的代码能力，可是谁又知道呢，说不定工作就是这么回事，看着legacy code照葫芦画瓢，增删改查。一整个大组的实习生忙了一个夏天也只不过是为了一个popup而已，甚至这个popup到最后也只是个react component，甚至不是个新的js</summary>
         
       
     
@@ -133,7 +150,11 @@
         
         
     <summary type="html">&lt;p&gt;每年一到四月就会由衷地厌人，痛恨自己身边每一个个体的存在，甚至有的时候可以包括自己。于是在初一那年不小心用美工刀割伤自己，直到鲜血流出来的那一刻才吓了一跳–我居然干了这种事。&lt;/p&gt;
-&lt;p&gt;到了五月六月便开始痛恨自己居然活着这件事，尝试的解决办法是逃避现实。大一那年的五月每</summary>
+&lt;p&gt;到了五月六月便开始痛恨自己居然活着这件事，尝试的解决办法是逃避现实。大一那年的五月每天看一部韩剧，巴不得住在韩剧里，一旦回到现实世界就有着企盼世界早日毁灭的真诚祈祷。&lt;/p&gt;
+&lt;p&gt;写到这里看了一眼title，随手打了一个endless summer，但是写的东西和夏天一点关系都没有。四五月份在合肥勉强能算夏天抬了个头，可是到了安娜堡可就什么也不算了，四十多华氏度的温度倒是endless的那一个。&lt;/p&gt;
+&lt;p&gt;写到这里才知道其实自己什么也不想写，什么也都写不出来，我的写作热情总和我对拥有不一样的生活的热情成正比生长。而今我唯一在想的只有未来到底要怎么办。是要继续假装看不见自己其实已经放弃做个不让过去的自己讨厌的人的趋势还是努力振奋明知道大概率不会成功的尝试，是要试着做个好人尝试有点热情尝试喜欢上自己现在的生活和自己还是随着水流游下去。我并不知道答案，我只是厌倦了漫长的季节，厌倦了沉闷的寂静，我只是想自由。&lt;/p&gt;
+&lt;br/&gt;
+&lt;iframe src=&quot;https://open.spotify.com/embed/track/761QvVHTibYjEi2r6A4g4Q?si=569df72ed142446c&quot; width=&quot;300&quot; height=&quot;380&quot; frameborder=&quot;0&quot; allowtransparency=&quot;allowtransparency&quot;</summary>
         
       
     
@@ -158,7 +179,7 @@
       
         
         
-    <summary type="html">&lt;p&gt;Dear Diary&lt;br&gt;Hope this email finds you well&lt;br&gt;我近来喜欢看安娜堡的晚霞，看月亮，喂松鼠&lt;br&gt;虽然这很不环保，也容易被咬。&lt;br&gt;可是秋天 深秋的景色是这么耐人寻味</summary>
+    <summary type="html">&lt;p&gt;Dear Diary&lt;br&gt;Hope this email finds you well&lt;br&gt;我近来喜欢看安娜堡的晚霞，看月亮，喂松鼠&lt;br&gt;虽然这很不环保，也容易被咬。&lt;br&gt;可是秋天 深秋的景色是这么耐人寻味 寒风吹在身上带去仅含的一点秋意&lt;br&gt;我最近也在喝酒&lt;br&gt;昨天夜里赌咒发誓 决定再也不喝了 喝酒伤身伤肝&lt;br&gt;夜里雄心勃勃骂道 再喝我就是小狗&lt;br&gt;今晨复饮酒 whiskey如常 将誓言抛到九霄云外去了&lt;br&gt;我好废物&lt;br&gt;我想喝酒的时候觉得喝酒能让我忘记所有的忧愁&lt;br&gt;但是是否有一种可能&lt;br&gt;是因为我坚信喝酒能消愁 所以我喝酒的时候才不会去想所有的烦恼&lt;br&gt;当我意识到喝酒也无法拯救我的时候 我继续喝酒&lt;br&gt;于是我在思考自杀的可能&lt;br&gt;但是这个问题太哲学 我的大脑圆溜溜的没有任何褶皱&lt;br&gt;这个问题不适合我&lt;br&gt;我还是只适合喂松鼠&lt;br&gt;不到人生的尽头我也不知道 到底喝酒对我模糊人生的前路是否有帮助&lt;br&gt;今夜我在想&lt;br&gt;醉后不知天在水 满船清梦压星河&lt;br&gt;我还想看更多</summary>
         
       
     
@@ -202,7 +223,9 @@
         
         
     <summary type="html">&lt;p&gt;下午三点半，我走进学校附近的中餐馆。&lt;/p&gt;
-&lt;p&gt;这是我第一次来这家餐馆。里面的布局出乎意料地很像中国大陆某些地区的土菜馆，靠近门口有大的圆桌子，小的方桌子，后面就是收银台，再里面就是厨房。大圆桌上坐着一群亚裔面孔，熙熙攘攘好不热闹，中文韩文英语互相混杂；另一头的小方桌上</summary>
+&lt;p&gt;这是我第一次来这家餐馆。里面的布局出乎意料地很像中国大陆某些地区的土菜馆，靠近门口有大的圆桌子，小的方桌子，后面就是收银台，再里面就是厨房。大圆桌上坐着一群亚裔面孔，熙熙攘攘好不热闹，中文韩文英语互相混杂；另一头的小方桌上，一个男生一面炫耀式地为同伴翻译那桌说的中文是什么意思，一面咬字坚定地对来倒水的服务员说谢谢。&lt;/p&gt;
+&lt;p&gt;服务员看到我，不由分说地开始用满是台湾腔的普通话喊道，“几位？”看到我竖起单单的食指，对着后面的空气喊，“一位！”&lt;/p&gt;
+&lt;p&gt;我找了张看起来干净的方桌子坐下，不巧正在那个一直在炫耀自己中文的男生对面。我看着服务员递过来的菜单。一如大多数美国的中餐馆一样，菜单长得令人咂舌，从广东烧腊到新疆大盘鸡，各种菜系应有尽有。我叹了口气。就经验主义来说，菜单的丰富程度不是像银行账户里的钱一样the more the</summary>
         
       
     
@@ -227,7 +250,8 @@
         
     <summary type="html">&lt;pre&gt;&lt;code&gt;Sun Oct 16, 22:07
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;  今天把电脑里之前在国内就下载好的歌拷贝了一份到记忆卡装到新手机里，随意的打开手机让它自由播放里面的歌。当MLA的歌声彻底结束后，是Red Hot Chili</summary>
+&lt;p&gt;  今天把电脑里之前在国内就下载好的歌拷贝了一份到记忆卡装到新手机里，随意的打开手机让它自由播放里面的歌。当MLA的歌声彻底结束后，是Red Hot Chili Pepers的snow。想起第一次记住这首歌是在高一的圣诞晚会上，已经在读大一的毕业校友回来唱的，几个已经毕业的人像是组了个乐队演出这首歌。当时晚会进行这首歌时已经有很多人陆陆续续离开了，台下稀稀拉拉的坐着剩下的观众。我坐在那里听着，虽然觉得唱得一般，但是歌本身显而易见的好听，我随口问了一句高中时候经常聊天的朋友这是什么歌，他跟我说，snow。由于本地的口音，我其实并没有搞清楚snow还是slow，就随它过去了。晚上回到家久违的见到手机，和朋友聊天，并没有提及这件事，他不知为何又附上了这首歌的链接。我打开链接，插上耳机听了起来。由于版本很冷门，歌曲的评论区并没有多少回复，我随手写了个评论，大概是说看到已经出去读大学回来的校友仿佛看到了未来的自己。现在说起来这句话只觉得又奇怪又好笑，看到了什么？看到了自己读了一学期回高中缅怀往日时光？还是到了大学突然玩起了乐队？但是当时我好像确实是这么想的-现在的我已经不具备理解过去的我的能力了。&lt;/p&gt;
+&lt;p&gt;  时至今日再听到这首歌，猛然发现已经快过去五年了。五年真是个长得令我害怕的时间，在我的人生中已然可以占去一quarter。想到当时自己说看到台上演出的人仿佛看到了未来的自己，突然有种哭笑不得感。彼时不曾想过因为pandemic直接失去一年大学的时光，第二年也毫无大学体验，直到第三年看到学校的诸多活动甚至有种自己是个新生的错觉，可惜时光和花去的学费都无情，在学校里我已经是个老人。这时又不禁自问，我到底有成为五年前的自己所expect的样子么。掰着手指开始算各项indicator，说到最核心的学业，高一刚开学想学建筑，被爸妈连番劝退后转变想法想学政治经济，大学被各路文社科助教和tenure</summary>
         
       
     
@@ -250,7 +274,9 @@
       
         
         
-    <summary type="html">&lt;p&gt;Problem Description: &lt;a href=&quot;https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/&quot;&gt;Least Number of Unique</summary>
+    <summary type="html">&lt;p&gt;Problem Description: &lt;a href=&quot;https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/&quot;&gt;Least Number of Unique Integers after K Removals&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;Data Structure Used: unordered_map&amp;#x2F;hashMap, priority_queue&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;code class=&quot;hljs bash&quot;&gt;class Solution &amp;#123;&lt;br&gt;public:&lt;br&gt;    unordered_map&amp;lt;int, int&amp;gt; m;&lt;br&gt;    int findLeastNumOfUniqueInts(vector&amp;lt;int&amp;gt;&amp;amp; arr, int k) &amp;#123;&lt;br&gt;        &lt;span class=&quot;hljs-keyword&quot;&gt;for&lt;/span&gt; (int i: arr) &amp;#123;&lt;br&gt;            m[i] += 1;&lt;br&gt;        &amp;#125;&lt;br&gt;        priority_queue&amp;lt;int, vector&amp;lt;int&amp;gt;, greater&amp;lt;int&amp;gt;&amp;gt; q;&lt;br&gt;        &lt;span class=&quot;hljs-keyword&quot;&gt;for&lt;/span&gt; (auto g: m) &amp;#123;&lt;br&gt;            q.push(g.second);&lt;br&gt;        &amp;#125;&lt;br&gt;        &lt;span class=&quot;hljs-keyword&quot;&gt;while&lt;/span&gt; (k &amp;gt; 0 &amp;amp;&amp;amp; !q.empty()) &amp;#123;&lt;br&gt;            &lt;span class=&quot;hljs-keyword&quot;&gt;if&lt;/span&gt; (q.top() &amp;lt;= k) &amp;#123;&lt;br&gt;                k -= q.top();&lt;br&gt;  </summary>
         
       
     
@@ -273,7 +299,12 @@
       
         
         
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://morethanjw.github.io/&quot;&gt;Jianyi’s Archive&lt;/a&gt;! This is Jianyi Wang from University of Michigan, Class of</summary>
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://morethanjw.github.io/&quot;&gt;Jianyi’s Archive&lt;/a&gt;! This is Jianyi Wang from University of Michigan, Class of 2024.&lt;/p&gt;
+&lt;p&gt;In my spare time, I also like to play piano, watch movies and animations(a big fan of &lt;a href=&quot;https://www.imdb.com/name/nm0464804/&quot;&gt;Satoshi Kon&lt;/a&gt;), and read novels(my favorite author is &lt;a href=&quot;http://www.ianmcewan.com/&quot;&gt;Ian McEwan&lt;/a&gt;). Look into this archive and know more about me!&lt;/p&gt;
+&lt;h2 id=&quot;Abstract-Updating&quot;&gt;&lt;a href=&quot;#Abstract-Updating&quot; class=&quot;headerlink&quot; title=&quot;Abstract(Updating!)&quot;&gt;&lt;/a&gt;Abstract(Updating!)&lt;/h2&gt;&lt;h3 id=&quot;Projects&quot;&gt;&lt;a href=&quot;#Projects&quot; class=&quot;headerlink&quot; title=&quot;Projects&quot;&gt;&lt;/a&gt;Projects&lt;/h3&gt;&lt;h4 id=&quot;MCommunity-Transformation&quot;&gt;&lt;a href=&quot;#MCommunity-Transformation&quot; class=&quot;headerlink&quot; title=&quot;MCommunity Transformation&quot;&gt;&lt;/a&gt;MCommunity Transformation&lt;/h4&gt;&lt;pre&gt;&lt;code&gt;Tech Stack Used: Python(django)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Click &lt;a href=&quot;https://mcommunity.umich.edu/&quot;&gt;here&lt;/a&gt; to see the new MCommunity web page!&lt;/p&gt;
+&lt;h4</summary>
         
       
     
