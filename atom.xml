@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Jianyi Wang</title>
-  
+  <icon>http://morethanjw.github.io/icon.png</icon>
   
   <link href="http://morethanjw.github.io/atom.xml" rel="self"/>
   
@@ -28,7 +28,8 @@
       
         
         
-    <summary type="html"></summary>
+    <summary type="html">&lt;p&gt;前几天和姚女士聊天，聊起身边人，姚女士表示身边的成功大学生好像都是这类的，可能也只有这类人能在美国卷出来。于是我在想还有没有另一种活得好的方式。&lt;/p&gt;
+&lt;p&gt;当然是有的。只不过能过另一种的生活的人又都有一些inborn的不寻常的attributes，在我这种又懒又不天资平</summary>
         
       
     
@@ -51,7 +52,7 @@
       
         
         
-    <summary type="html"></summary>
+    <summary type="html">&lt;p&gt;You are given an array people where people[i] is the weight of the ith person, and an infinite number of boats where each boat can carry</summary>
         
       
     
@@ -78,7 +79,8 @@
       
         
         
-    <summary type="html"></summary>
+    <summary type="html">&lt;p&gt;Given an integer array nums, move all 0’s to the end of it while maintaining the relative order of the non-zero elements.&lt;/p&gt;
+&lt;p&gt;Note</summary>
         
       
     
@@ -105,7 +107,7 @@
       
         
         
-    <summary type="html"></summary>
+    <summary type="html">&lt;iframe style=&quot;border-radius:8px&quot; src=&quot;https://open.spotify.com/embed/track/2mfgdpVsRj9ixCM2OBMED2?utm_source=generator&quot; width=&quot;70%&quot;</summary>
         
       
     
@@ -130,7 +132,8 @@
       
         
         
-    <summary type="html"></summary>
+    <summary type="html">&lt;p&gt;每年一到四月就会由衷地厌人，痛恨自己身边每一个个体的存在，甚至有的时候可以包括自己。于是在初一那年不小心用美工刀割伤自己，直到鲜血流出来的那一刻才吓了一跳–我居然干了这种事。&lt;/p&gt;
+&lt;p&gt;到了五月六月便开始痛恨自己居然活着这件事，尝试的解决办法是逃避现实。大一那年的五月每</summary>
         
       
     
@@ -155,7 +158,7 @@
       
         
         
-    <summary type="html"></summary>
+    <summary type="html">&lt;p&gt;Dear Diary&lt;br&gt;Hope this email finds you well&lt;br&gt;我近来喜欢看安娜堡的晚霞，看月亮，喂松鼠&lt;br&gt;虽然这很不环保，也容易被咬。&lt;br&gt;可是秋天 深秋的景色是这么耐人寻味</summary>
         
       
     
@@ -198,7 +201,8 @@
       
         
         
-    <summary type="html"></summary>
+    <summary type="html">&lt;p&gt;下午三点半，我走进学校附近的中餐馆。&lt;/p&gt;
+&lt;p&gt;这是我第一次来这家餐馆。里面的布局出乎意料地很像中国大陆某些地区的土菜馆，靠近门口有大的圆桌子，小的方桌子，后面就是收银台，再里面就是厨房。大圆桌上坐着一群亚裔面孔，熙熙攘攘好不热闹，中文韩文英语互相混杂；另一头的小方桌上</summary>
         
       
     
@@ -221,7 +225,9 @@
       
         
         
-    <summary type="html"></summary>
+    <summary type="html">&lt;pre&gt;&lt;code&gt;Sun Oct 16, 22:07
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;  今天把电脑里之前在国内就下载好的歌拷贝了一份到记忆卡装到新手机里，随意的打开手机让它自由播放里面的歌。当MLA的歌声彻底结束后，是Red Hot Chili</summary>
         
       
     
@@ -244,7 +250,7 @@
       
         
         
-    <summary type="html"></summary>
+    <summary type="html">&lt;p&gt;Problem Description: &lt;a href=&quot;https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/&quot;&gt;Least Number of Unique</summary>
         
       
     
@@ -267,7 +273,7 @@
       
         
         
-    <summary type="html"></summary>
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://morethanjw.github.io/&quot;&gt;Jianyi’s Archive&lt;/a&gt;! This is Jianyi Wang from University of Michigan, Class of</summary>
         
       
     
