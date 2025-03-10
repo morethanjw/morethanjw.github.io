@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>world,here I come</title>
-    <url>/2025/03/08/me/</url>
+    <url>/2025/03/08/aboutMe/</url>
     <content><![CDATA[<p>Welcome to <a href="https://morethanjw.github.io/">Jianyi’s Archive</a>! This is Jianyi Wang from University of Michigan, a normal computer science student that do showers everyday, jumping between the bath of commercialism and nihilism.</p>
 <p>In my spare time, I like to listen to music (cannot figure a favorite genre to list out), watch movies and animations(a big fan of <a href="https://www.imdb.com/name/nm0464804/">Satoshi Kon</a>), and read novels(my favorite author is <a href="http://www.ianmcewan.com/">Ian McEwan</a>). I keep posting some random notes, boring diaries, and fictions that are just authentically about me.</p>
 <p>At the end of all these cliches, welcome to my archive! Remember, everything here is about me, not you XD.</p>
@@ -14,7 +14,7 @@
   </entry>
   <entry>
     <title>Love-Coma</title>
-    <url>/2025/03/08/coma/</url>
+    <url>/2025/03/08/coma-and-cu/</url>
     <content><![CDATA[<p>今天下午五点半，她约我在市中心的冰淇淋店见面。我有预感，她要对我说分手。</p>
 <p>早上天蒙蒙亮我就醒来了。从小到大我都是这样的，睡前心里惦记着第二天的事，早上就会早早醒来。醒来的那一刻大脑不会感到强烈疲惫，只有隐隐的疼痛在中午到来前越演越烈。到了下午，喝一杯意式浓缩，或者抽上一根随便买的廉价香烟，疼痛也就会消失的无影无踪了。</p>
 <p>看着窗外白蒙蒙的天，我并无半点起床的动力，但除了起床好像也没什么好做的事情。于是进行晨间照例，结束后准备提上灰色的 tumi 双肩包出门。离上班规定开始的时间还早，可我实在没有什么别的可以做的事情了。早点去办公室似乎不是一个坏的选择，我知道我会看到那些每天提前一个小时到办公室的同事，因为他们也没有什么事可做，对他们来说，早早到办公室也不是个坏的选择。</p>
@@ -53,7 +53,7 @@
   </entry>
   <entry>
     <title>光点闪闪的不一定是诗歌舞街</title>
-    <url>/2023/11/23/21/</url>
+    <url>/2023/11/23/with-21/</url>
     <content><![CDATA[<p>前几天和姚女士聊天，聊起身边人，姚女士表示身边的成功大学生好像都是这类的，可能也只有这类人能在美国卷出来。于是我在想还有没有另一种活得好的方式。</p>
 <p>当然是有的。只不过能过另一种的生活的人又都有一些inborn的不寻常的attributes，在我这种又懒又不天资平平的普通人身上找不到也实现不了。</p>
 <p>我开始相信美好生活一定可以等来，就像钱一定会从天上掉下来（我这么相信不是因为我的naturali ratione真的推导出来了什么，而是单纯的“我真的很想相信，所以我相信”）。学期过了一大半，我真的好想说“好累啊，真的不想再这么过下去了“，却因为真的不知道自己做了什么让自己这么累而闭嘴，更因为不知道什么样的生活才能让我不累而陷入沉思。在这种情况下，就算我真的过上美好生活了，我也无法知道自己在过美好生活。</p>
@@ -68,39 +68,8 @@
       </tags>
   </entry>
   <entry>
-    <title>LeetCode 881.Boats to Save People</title>
-    <url>/2023/07/28/leetcode-881-boats-to-save-people/</url>
-    <content><![CDATA[<p>You are given an array people where people[i] is the weight of the ith person, and an infinite number of boats where each boat can carry a maximum weight of limit. Each boat carries at most two people at the same time, provided the sum of the weight of those people is at most limit.</p>
-<p>Return the minimum number of boats to carry every given person.</p>
-<p>Example 1:<br>Input: people &#x3D; [1,2], limit &#x3D; 3<br>Output: 1<br>Explanation: 1 boat (1, 2)</p>
-<p>Example 2:<br>Input: people &#x3D; [3,2,2,1], limit &#x3D; 3<br>Output: 3<br>Explanation: 3 boats (1, 2), (2) and (3)</p>
-<p>Example 3:<br>Input: people &#x3D; [3,5,3,4], limit &#x3D; 5<br>Output: 4<br>Explanation: 4 boats (3), (3), (4), (5)</p>
-<figure class="highlight gradle"><table><tr><td class="code"><pre><code class="hljs gradle"><span class="hljs-keyword">class</span> Solution:<br>    <span class="hljs-keyword">def</span> numRescueBoats(self, people: List[<span class="hljs-keyword">int</span>], limit: <span class="hljs-keyword">int</span>) -&gt; <span class="hljs-keyword">int</span>:<br>        people.<span class="hljs-keyword">sort</span>()<br>        ans = <span class="hljs-number">0</span><br>        i = <span class="hljs-number">0</span><br>        e = len(people) - <span class="hljs-number">1</span><br>        <span class="hljs-keyword">while</span> i &lt;= e:<br>            <span class="hljs-keyword">if</span> (people[i] + people[e] &lt;= limit):<br>                ans += <span class="hljs-number">1</span><br>                i += <span class="hljs-number">1</span><br>                e -= <span class="hljs-number">1</span><br>            <span class="hljs-keyword">else</span>:<br>                ans += <span class="hljs-number">1</span><br>                e -= <span class="hljs-number">1</span><br>        <span class="hljs-keyword">return</span> ans<br></code></pre></td></tr></table></figure>
-]]></content>
-      <tags>
-        <tag>Python3</tag>
-        <tag>two pointers</tag>
-        <tag>Medium</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>LeetCode 283.Move Zeroes</title>
-    <url>/2023/07/27/leetcode-283-move-zeroes/</url>
-    <content><![CDATA[<p>Given an integer array nums, move all 0’s to the end of it while maintaining the relative order of the non-zero elements.</p>
-<p>Note that you must do this in-place without making a copy of the array.</p>
-<p>Example 1:<br>Input: nums &#x3D; [0,1,0,3,12]<br>Output: [1,3,12,0,0]</p>
-<p>Example 2:<br>Input: nums &#x3D; [0]<br>Output: [0]</p>
-<figure class="highlight ceylon"><table><tr><td class="code"><pre><code class="hljs ceylon"><span class="hljs-keyword">class</span> Solution:<br>    def moveZeroes(self, nums: List[int]) -&gt; None:<br>        <span class="hljs-string">&quot;&quot;&quot;</span><br><span class="hljs-string">        Do not return anything, modify nums in-place instead.</span><br><span class="hljs-string">        &quot;&quot;&quot;</span><br>        i = <span class="hljs-number">0</span>;<br>        <span class="hljs-keyword">for</span> num <span class="hljs-keyword">in</span> nums:<br>            <span class="hljs-keyword">if</span> num != <span class="hljs-number">0</span>:<br>                nums[i] = num<br>                i += <span class="hljs-number">1</span><br>        <span class="hljs-keyword">while</span> i &lt; len(nums):<br>            nums[i] = <span class="hljs-number">0</span><br>            i += <span class="hljs-number">1</span><br>        <span class="hljs-keyword">return</span> nums<br></code></pre></td></tr></table></figure>
-]]></content>
-      <tags>
-        <tag>Python3</tag>
-        <tag>Easy</tag>
-        <tag>two pointers</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>表演时不知该望何边</title>
-    <url>/2023/07/23/ni-wang-xia-ge-bian/</url>
+    <url>/2023/07/23/this-and-that/</url>
     <content><![CDATA[<iframe style="border-radius:8px" src="https://open.spotify.com/embed/track/2mfgdpVsRj9ixCM2OBMED2?utm_source=generator" width="70%" height="250" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 <p>临近实习结束，我开始对我又一个无事发生的夏天忧心仲仲。</p>
@@ -130,7 +99,7 @@
   </entry>
   <entry>
     <title>王是小白脸</title>
-    <url>/2022/10/22/wang-shi-xiao-bai-lian/</url>
+    <url>/2022/10/22/white-face/</url>
     <content><![CDATA[<p>Dear Diary<br>Hope this email finds you well<br>我近来喜欢看安娜堡的晚霞，看月亮，喂松鼠<br>虽然这很不环保，也容易被咬。<br>可是秋天 深秋的景色是这么耐人寻味 寒风吹在身上带去仅含的一点秋意<br>我最近也在喝酒<br>昨天夜里赌咒发誓 决定再也不喝了 喝酒伤身伤肝<br>夜里雄心勃勃骂道 再喝我就是小狗<br>今晨复饮酒 whiskey如常 将誓言抛到九霄云外去了<br>我好废物<br>我想喝酒的时候觉得喝酒能让我忘记所有的忧愁<br>但是是否有一种可能<br>是因为我坚信喝酒能消愁 所以我喝酒的时候才不会去想所有的烦恼<br>当我意识到喝酒也无法拯救我的时候 我继续喝酒<br>于是我在思考自杀的可能<br>但是这个问题太哲学 我的大脑圆溜溜的没有任何褶皱<br>这个问题不适合我<br>我还是只适合喂松鼠<br>不到人生的尽头我也不知道 到底喝酒对我模糊人生的前路是否有帮助<br>今夜我在想<br>醉后不知天在水 满船清梦压星河<br>我还想看更多 我想活的像一朵打上晴空的烟花一样</p>
 ]]></content>
       <tags>
@@ -188,7 +157,7 @@
   </entry>
   <entry>
     <title>Life Log</title>
-    <url>/2022/10/16/lifelog/</url>
+    <url>/2022/10/16/life-log/</url>
     <content><![CDATA[<pre><code>Sun Oct 16, 22:07
 </code></pre>
 <p>  今天把电脑里之前在国内就下载好的歌拷贝了一份到记忆卡装到新手机里，随意的打开手机让它自由播放里面的歌。当MLA的歌声彻底结束后，是Red Hot Chili Pepers的snow。想起第一次记住这首歌是在高一的圣诞晚会上，已经在读大一的毕业校友回来唱的，几个已经毕业的人像是组了个乐队演出这首歌。当时晚会进行这首歌时已经有很多人陆陆续续离开了，台下稀稀拉拉的坐着剩下的观众。我坐在那里听着，虽然觉得唱得一般，但是歌本身显而易见的好听，我随口问了一句高中时候经常聊天的朋友这是什么歌，他跟我说，snow。由于本地的口音，我其实并没有搞清楚snow还是slow，就随它过去了。晚上回到家久违的见到手机，和朋友聊天，并没有提及这件事，他不知为何又附上了这首歌的链接。我打开链接，插上耳机听了起来。由于版本很冷门，歌曲的评论区并没有多少回复，我随手写了个评论，大概是说看到已经出去读大学回来的校友仿佛看到了未来的自己。现在说起来这句话只觉得又奇怪又好笑，看到了什么？看到了自己读了一学期回高中缅怀往日时光？还是到了大学突然玩起了乐队？但是当时我好像确实是这么想的-现在的我已经不具备理解过去的我的能力了。</p>
@@ -199,17 +168,6 @@
 ]]></content>
       <tags>
         <tag>About Me</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Leetcode 1481</title>
-    <url>/2022/10/07/leetcode1481/</url>
-    <content><![CDATA[<p>Problem Description: <a href="https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/">Least Number of Unique Integers after K Removals</a> </p>
-<p>Data Structure Used: unordered_map&#x2F;hashMap, priority_queue</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">class Solution &#123;<br>public:<br>    unordered_map&lt;int, int&gt; m;<br>    int findLeastNumOfUniqueInts(vector&lt;int&gt;&amp; arr, int k) &#123;<br>        <span class="hljs-keyword">for</span> (int i: arr) &#123;<br>            m[i] += 1;<br>        &#125;<br>        priority_queue&lt;int, vector&lt;int&gt;, greater&lt;int&gt;&gt; q;<br>        <span class="hljs-keyword">for</span> (auto g: m) &#123;<br>            q.push(g.second);<br>        &#125;<br>        <span class="hljs-keyword">while</span> (k &gt; 0 &amp;&amp; !q.empty()) &#123;<br>            <span class="hljs-keyword">if</span> (q.top() &lt;= k) &#123;<br>                k -= q.top();<br>                q.pop();<br>            &#125;<br>            <span class="hljs-keyword">else</span> &#123;<br>                <span class="hljs-built_in">return</span> q.size();<br>            &#125;<br>        &#125;<br>        <span class="hljs-built_in">return</span> q.size();<br>    &#125;<br>&#125;;<br></code></pre></td></tr></table></figure>
-]]></content>
-      <tags>
-        <tag>C++</tag>
       </tags>
   </entry>
 </search>

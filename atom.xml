@@ -18,8 +18,8 @@
   
   <entry>
     <title>Love-Coma</title>
-    <link href="http://morethanjw.github.io/2025/03/08/coma/"/>
-    <id>http://morethanjw.github.io/2025/03/08/coma/</id>
+    <link href="http://morethanjw.github.io/2025/03/08/coma-and-cu/"/>
+    <id>http://morethanjw.github.io/2025/03/08/coma-and-cu/</id>
     <published>2025-03-08T05:32:41.000Z</published>
     <updated>2025-03-09T05:46:05.784Z</updated>
     
@@ -46,8 +46,8 @@
   
   <entry>
     <title>world,here I come</title>
-    <link href="http://morethanjw.github.io/2025/03/08/me/"/>
-    <id>http://morethanjw.github.io/2025/03/08/me/</id>
+    <link href="http://morethanjw.github.io/2025/03/08/aboutMe/"/>
+    <id>http://morethanjw.github.io/2025/03/08/aboutMe/</id>
     <published>2025-03-08T05:13:55.000Z</published>
     <updated>2025-03-09T08:30:52.704Z</updated>
     
@@ -72,8 +72,8 @@
   
   <entry>
     <title>光点闪闪的不一定是诗歌舞街</title>
-    <link href="http://morethanjw.github.io/2023/11/23/21/"/>
-    <id>http://morethanjw.github.io/2023/11/23/21/</id>
+    <link href="http://morethanjw.github.io/2023/11/23/with-21/"/>
+    <id>http://morethanjw.github.io/2023/11/23/with-21/</id>
     <published>2023-11-23T23:27:51.000Z</published>
     <updated>2023-11-24T00:01:46.322Z</updated>
     
@@ -100,72 +100,9 @@
   </entry>
   
   <entry>
-    <title>LeetCode 881.Boats to Save People</title>
-    <link href="http://morethanjw.github.io/2023/07/28/leetcode-881-boats-to-save-people/"/>
-    <id>http://morethanjw.github.io/2023/07/28/leetcode-881-boats-to-save-people/</id>
-    <published>2023-07-28T04:37:05.000Z</published>
-    <updated>2023-07-28T04:39:41.119Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;You are given an array people where people[i] is the weight of the ith person, and an infinite number of boats where each boat can carry a maximum weight of limit. Each boat carries at most two people at the same time, provided the sum of the weight of those people is at most limit.&lt;/p&gt;
-&lt;p&gt;Return the minimum number of boats to carry every given person.&lt;/p&gt;
-&lt;p&gt;Example 1:&lt;br&gt;Input: people &amp;#x3D; [1,2], limit &amp;#x3D; 3&lt;br&gt;Output: 1&lt;br&gt;Explanation: 1 boat (1, 2)&lt;/p&gt;
-&lt;p&gt;Example 2:&lt;br&gt;Input: people &amp;#x3D; [3,2,2,1], limit &amp;#x3D; 3&lt;br&gt;Output: 3&lt;br&gt;Explanation: 3 boats (1, 2), (2) and (3)&lt;/p&gt;
-&lt;p&gt;Example 3:&lt;br&gt;Input: people &amp;#x3D; [3,5,3,4], limit &amp;#x3D; 5&lt;br&gt;Output: 4&lt;br&gt;Explanation: 4 boats (3), (3), (4), (5)&lt;/p&gt;
-&lt;figure class=&quot;highlight gradle&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;code class=&quot;hljs gradle&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;class&lt;/span&gt; Solution:&lt;br&gt;    &lt;span class=&quot;hljs-keyword&quot;&gt;def&lt;/span&gt; numRescueBoats(self, people: List[&lt;span class=&quot;hljs-keyword&quot;&gt;int&lt;/span&gt;], limit: &lt;span</summary>
-        
-      
-    
-    
-    
-    
-    <category term="Python3" scheme="http://morethanjw.github.io/tags/Python3/"/>
-    
-    <category term="two pointers" scheme="http://morethanjw.github.io/tags/two-pointers/"/>
-    
-    <category term="Medium" scheme="http://morethanjw.github.io/tags/Medium/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>LeetCode 283.Move Zeroes</title>
-    <link href="http://morethanjw.github.io/2023/07/27/leetcode-283-move-zeroes/"/>
-    <id>http://morethanjw.github.io/2023/07/27/leetcode-283-move-zeroes/</id>
-    <published>2023-07-28T01:16:07.000Z</published>
-    <updated>2023-07-28T01:22:24.315Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Given an integer array nums, move all 0’s to the end of it while maintaining the relative order of the non-zero elements.&lt;/p&gt;
-&lt;p&gt;Note that you must do this in-place without making a copy of the array.&lt;/p&gt;
-&lt;p&gt;Example 1:&lt;br&gt;Input: nums &amp;#x3D; [0,1,0,3,12]&lt;br&gt;Output: [1,3,12,0,0]&lt;/p&gt;
-&lt;p&gt;Example 2:&lt;br&gt;Input: nums &amp;#x3D; [0]&lt;br&gt;Output: [0]&lt;/p&gt;
-&lt;figure class=&quot;highlight ceylon&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;code class=&quot;hljs ceylon&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;class&lt;/span&gt; Solution:&lt;br&gt;    def moveZeroes(self, nums: List[int]) -&amp;gt; None:&lt;br&gt;        &lt;span class=&quot;hljs-string&quot;&gt;&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;hljs-string&quot;&gt;        Do not return anything, modify nums in-place instead.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;hljs-string&quot;&gt;        &amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;&lt;br&gt;        i = &lt;span class=&quot;hljs-number&quot;&gt;0&lt;/span&gt;;&lt;br&gt;        &lt;span class=&quot;hljs-keyword&quot;&gt;for&lt;/span&gt; num &lt;span class=&quot;hljs-keyword&quot;&gt;in&lt;/span&gt; nums:&lt;br&gt;            &lt;span class=&quot;hljs-keyword&quot;&gt;if&lt;/span&gt; num != &lt;span</summary>
-        
-      
-    
-    
-    
-    
-    <category term="Python3" scheme="http://morethanjw.github.io/tags/Python3/"/>
-    
-    <category term="Easy" scheme="http://morethanjw.github.io/tags/Easy/"/>
-    
-    <category term="two pointers" scheme="http://morethanjw.github.io/tags/two-pointers/"/>
-    
-  </entry>
-  
-  <entry>
     <title>表演时不知该望何边</title>
-    <link href="http://morethanjw.github.io/2023/07/23/ni-wang-xia-ge-bian/"/>
-    <id>http://morethanjw.github.io/2023/07/23/ni-wang-xia-ge-bian/</id>
+    <link href="http://morethanjw.github.io/2023/07/23/this-and-that/"/>
+    <id>http://morethanjw.github.io/2023/07/23/this-and-that/</id>
     <published>2023-07-24T03:15:17.000Z</published>
     <updated>2023-07-24T03:48:57.761Z</updated>
     
@@ -223,8 +160,8 @@
   
   <entry>
     <title>王是小白脸</title>
-    <link href="http://morethanjw.github.io/2022/10/22/wang-shi-xiao-bai-lian/"/>
-    <id>http://morethanjw.github.io/2022/10/22/wang-shi-xiao-bai-lian/</id>
+    <link href="http://morethanjw.github.io/2022/10/22/white-face/"/>
+    <id>http://morethanjw.github.io/2022/10/22/white-face/</id>
     <published>2022-10-22T06:20:45.000Z</published>
     <updated>2022-10-22T16:11:27.741Z</updated>
     
@@ -292,8 +229,8 @@
   
   <entry>
     <title>Life Log</title>
-    <link href="http://morethanjw.github.io/2022/10/16/lifelog/"/>
-    <id>http://morethanjw.github.io/2022/10/16/lifelog/</id>
+    <link href="http://morethanjw.github.io/2022/10/16/life-log/"/>
+    <id>http://morethanjw.github.io/2022/10/16/life-log/</id>
     <published>2022-10-17T02:07:23.000Z</published>
     <updated>2022-10-17T04:28:47.462Z</updated>
     
@@ -313,31 +250,6 @@
     
     
     <category term="About Me" scheme="http://morethanjw.github.io/tags/About-Me/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Leetcode 1481</title>
-    <link href="http://morethanjw.github.io/2022/10/07/leetcode1481/"/>
-    <id>http://morethanjw.github.io/2022/10/07/leetcode1481/</id>
-    <published>2022-10-07T20:30:56.000Z</published>
-    <updated>2022-10-07T20:51:06.615Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Problem Description: &lt;a href=&quot;https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/&quot;&gt;Least Number of Unique Integers after K Removals&lt;/a&gt; &lt;/p&gt;
-&lt;p&gt;Data Structure Used: unordered_map&amp;#x2F;hashMap, priority_queue&lt;/p&gt;
-&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;code class=&quot;hljs bash&quot;&gt;class Solution &amp;#123;&lt;br&gt;public:&lt;br&gt;    unordered_map&amp;lt;int, int&amp;gt; m;&lt;br&gt;    int findLeastNumOfUniqueInts(vector&amp;lt;int&amp;gt;&amp;amp; arr, int k) &amp;#123;&lt;br&gt;        &lt;span class=&quot;hljs-keyword&quot;&gt;for&lt;/span&gt; (int i: arr) &amp;#123;&lt;br&gt;            m[i] += 1;&lt;br&gt;        &amp;#125;&lt;br&gt;        priority_queue&amp;lt;int, vector&amp;lt;int&amp;gt;, greater&amp;lt;int&amp;gt;&amp;gt; q;&lt;br&gt;        &lt;span class=&quot;hljs-keyword&quot;&gt;for&lt;/span&gt; (auto g: m) &amp;#123;&lt;br&gt;            q.push(g.second);&lt;br&gt;        &amp;#125;&lt;br&gt;        &lt;span class=&quot;hljs-keyword&quot;&gt;while&lt;/span&gt; (k &amp;gt; 0 &amp;amp;&amp;amp; !q.empty()) &amp;#123;&lt;br&gt;            &lt;span class=&quot;hljs-keyword&quot;&gt;if&lt;/span&gt; (q.top() &amp;lt;= k) &amp;#123;&lt;br&gt;                k -= q.top();&lt;br&gt;  </summary>
-        
-      
-    
-    
-    
-    
-    <category term="C++" scheme="http://morethanjw.github.io/tags/C/"/>
     
   </entry>
   
